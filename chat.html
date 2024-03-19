@@ -2,7 +2,7 @@
 	<body>
 		test
 	</body>
-  <style type='text/css'>
+ <style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton {
 		background-color: #005290;
 		font-family: "Arial", sans-serif;
@@ -11,6 +11,8 @@
 		outline: 1px solid #005290;
 	}
 </style>
+
+<script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
 <script type='text/javascript'>
 	var initESW = function(gslbBaseURL) {
 		embedded_svc.settings.displayHelpButton = true; //Or false
@@ -36,16 +38,16 @@
 
 		embedded_svc.init(
 			'https://spotonteam--emmanuel.sandbox.my.salesforce.com',
-			'https://spotonteam--emmanuel.sandbox.my.site.com/restaurantescalationsvisualforce',
+			'https://spotonteam--emmanuel.sandbox.my.site.com/SalesAndSupportvforcesite',
 			gslbBaseURL,
 			'00D7c000008sGeO',
-			'test_salesforce',
+			'SalesSupport',
 			{
 				baseLiveAgentContentURL: 'https://c.la2s-core2.sfdc-lywfpd.salesforceliveagent.com/content',
-				deploymentId: '5727c00000000IE',
-				buttonId: '5737c00000001Na',
+				deploymentId: '5724x000000QGJw',
+				buttonId: '5737c000000Cb3k',
 				baseLiveAgentURL: 'https://d.la2s-core2.sfdc-lywfpd.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I7c0000008OZVEA2_18d7f5220ac',
+				eswLiveAgentDevName: 'Sales_Support',
 				isOfflineSupportEnabled: true
 			}
 		);
